@@ -40,10 +40,27 @@ This is the working flow of a MVC application.
 
 # Implementation in Express&Node.
 A Standarized MVC Application looks like this-
+[ the repo 😂]
 
+The requests can be sent to this server/app,
+* send a GET request to localhost:3000/users to get all users.
+* send a POST request to localhost:3000/users to add a new user.
+* send a DELETE request to localhost:3000/users to delete a user.
 
-# notes-
+## Flow in our Application-
+* Server is started from index.js, then index.js tells routes to handle upcoming requests,
+* Routes handles types of request and tells the respective controller to process the request,
+* Contoller handles the request and uses diffrent models to manipulate the data,
+* Models works with database(inbuilt here) & gives response to controller,
+* Views (router again here) makes presentation & gives response to controller.
+* Controller sends the presentation back to user using routes.
+
+# Notes-
 1. Any middleware required/imported on the main index.js page, will be availble to any page which will have instance to main page.
 eg- the express.json allows to pass the request body(req.body.anyJsonKeyName).
-without it we wont be able to parse it
-in the controller page, we needed it, but we didnt required it, it worked out of the box. more on that page.
+without it we wont be able to parse it, in the controller page, we needed it, but we didnt required it, it worked out of the box. more on that page.
+2. The app.route(...) chainable handler & the express.Router() class can be chained together, to make chainable request handler and exported simultaneously.
+as done it routes.
+
+### This is what i learnt about MVC in a day, remained confused for a while about MVC before today, but after implementing it today, everything is crystal clear✨
+## Hope it helps.😉🚀

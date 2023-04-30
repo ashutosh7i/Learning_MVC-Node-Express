@@ -1,0 +1,15 @@
+{
+  "name": "learning_mvc-node-express",
+  "version": "1.0.0",
+  "description": "Started learning MVC with Node&amp;Express, this repository contains all the work i done. A kind of backup.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4"
+  }
+}
