@@ -40,3 +40,10 @@ This is the working flow of a MVC application.
 
 # Implementation in Express&Node.
 A Standarized MVC Application looks like this-
+
+
+# notes-
+1. Any middleware required/imported on the main index.js page, will be availble to any page which will have instance to main page.
+eg- the express.json allows to pass the request body(req.body.anyJsonKeyName).
+without it we wont be able to parse it
+in the controller page, we needed it, but we didnt required it, it worked out of the box. more on that page.
