@@ -32,7 +32,7 @@ The whole flow is described in the index.js file of an app, it is the entry poin
 Firstly the request is handles by the routes, routes is an index file that handles all request sent to the server,
 Then the routes pass the request to the appropriate controller.
 Contoller then uses its internal logics to process the request,it interacts with the model.
-Model is uses to fetch and send back information to the database.,and then to controller.
+Model is uses to fetch and send back information to the database,and then to controller.
 Controller then processed the information and sends it to views.
 Views create a presentation for that information.and sends the presentation (HTML) back to the controller,
 And at last, the controller shows the information back to the user.
