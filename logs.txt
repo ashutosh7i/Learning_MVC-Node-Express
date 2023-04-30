@@ -1,0 +1,48 @@
+
+April 30th 2023, 6:29:19 pm:
+            IP- ::1
+            Req- GET: /
+
+April 30th 2023, 6:29:19 pm:
+            IP- ::1
+            Req- GET: /
+
+April 30th 2023, 6:29:19 pm:
+            IP- ::1
+            Req- GET: /users
+
+April 30th 2023, 8:47:18 pm:
+            IP- ::1
+            Req- GET: /
+
+April 30th 2023, 8:47:18 pm:
+            IP- ::1
+            Req- GET: /users
+
+April 30th 2023, 8:47:18 pm:
+            IP- ::1
+            Req- GET: //user
+
+April 30th 2023, 8:47:18 pm:
+            IP- ::1
+            Req- GET: /usr
+
+April 30th 2023, 8:47:18 pm:
+            IP- ::1
+            Req- GET: /userd
+
+April 30th 2023, 8:48:36 pm:
+            IP- ::1
+            Req- GET: /
+
+April 30th 2023, 8:48:36 pm:
+            IP- ::1
+            Req- GET: /userd
+
+April 30th 2023, 8:55:41 pm:
+            IP- ::1
+            Req- GET: /users
+
+April 30th 2023, 11:18:39 pm:
+            IP- ::ffff:127.0.0.1
+            Req- POST: /users
